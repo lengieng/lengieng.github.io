@@ -14,7 +14,7 @@ section {
     -moz-background-size: 100% cover;
     -o-background-size: 100% cover;
     background-size: 100% cover;
-    height: 500px;
+    height: 100%;
 }
 
 #home-wrapper {
