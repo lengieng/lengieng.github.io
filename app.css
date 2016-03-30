@@ -31,11 +31,16 @@ section {
 }
 
 kbd {
+/*
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3);
+*/
+    background: none;
+    box-shadow: none;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+    font-weight: 700;
 }
 
 #social-btn > li {
