@@ -1,0 +1,187 @@
+body,
+html {
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    padding-top: 60px;
+}
+
+#home {
+    background: url('http://i1268.photobucket.com/albums/jj570/lengieng/pc-1207834_1280_zpsnxh8hqh5.jpg') no-repeat center bottom scroll;
+    -webkit-background-size: 100% cover;
+    -moz-background-size: 100% cover;
+    -o-background-size: 100% cover;
+    background-size: 100% cover;
+    height: 500px;
+}
+
+#home-wrapper {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#home-wrapper .page-header {
+    font-size: 2em;
+}
+
+kbd {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#social-btn > li {
+    padding-bottom: 10px;
+}
+
+#social-btn .btn-default {
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+#social-btn .btn-default:hover {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#about {
+    background: url('http://i1268.photobucket.com/albums/jj570/lengieng/fog-240075_1280_zps8mrvm92t.jpg') no-repeat left center scroll;
+    -webkit-background-size: 100% cover;
+    -moz-background-size: 100% cover;
+    -o-background-size: 100% cover;
+    background-size: 100% cover;
+    height: 600px;
+    text-shadow: 2px 2px 8px #000;
+}
+
+#about-wrapper {
+    width: 100%;
+}
+
+#profile-pic {
+    float: right;
+}
+
+.thumbnail {
+    box-shadow: 4px 4px 20px #333;
+}
+
+.caption hr {
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: rgb(70, 64, 68);
+    border-radius: 5px;
+    color: rgb(252, 189, 135);
+    font-size: 10px;
+    padding: 5px;
+    /*   box-shadow: 2px 2px 10px #333; */
+}
+
+#contact {
+    padding-bottom: 30px;
+}
+
+#business-card {
+    background-color: rgb(70, 64, 68);
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px #333;
+    color: rgb(216, 214, 199);
+    font-family: 'Nunito', sans-serif;
+    padding: 30px 10px 0 10px;
+    width: 100%;
+    height: 200px;
+}
+
+#business-card-header {
+    color: rgb(252, 189, 135);
+    font-family: 'Audiowide', arial;
+}
+
+#right-contact {
+    border-left: solid;
+    border-left-color: rgb(108, 93, 103);
+    padding-left: 5px;
+}
+
+#business-card a {
+    color: rgb(216, 214, 199);
+}
+
+footer {
+    background: #333;
+    color: rgb(216, 214, 199);
+    padding: 20px 0 20px 0;
+}
+
+@media (min-width: 480px) {
+    #home {
+        background: url('http://i1268.photobucket.com/albums/jj570/lengieng/pc-1207834_1280_zpsnxh8hqh5.jpg') no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 700px;
+        padding-top: 0;
+    }
+    #home .page-header {
+        font-size: 5em;
+    }
+    #home-wrapper {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #social-btn > li {
+        display: inline-block;
+    }
+    #about {
+        background: url('http://i1268.photobucket.com/albums/jj570/lengieng/fog-240075_1280_zps8mrvm92t.jpg') no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 700px;
+    }
+    #about-wrapper {
+        width: 50%;
+    }
+    .thumbnail {
+        box-shadow: none;
+    }
+    .thumbnail:hover {
+        box-shadow: 4px 4px 20px #333;
+        -webkit-transition: box-shadow .5s;
+        transition: box-shadow .5s;
+    }
+    
+    #business-card {
+        background-color: rgb(70, 64, 68);
+        color: rgb(216, 214, 199);
+        padding: 60px 30px 0 30px;
+        width: 450px;
+        height: 230px;
+        box-shadow: initial;
+        -webkit-transition: box-shadow .5s;
+        transition: box-shadow .5s;
+    }
+    #business-card:hover {
+        box-shadow: 7px 7px 15px #333;
+    }
+    #right-contact {
+        padding-left: 10px;
+    }
+}
