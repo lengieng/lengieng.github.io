@@ -1,6 +1,7 @@
 body,
 html {
     height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 section {
@@ -9,7 +10,7 @@ section {
 }
 
 #home {
-    background: url('http://i1268.photobucket.com/albums/jj570/lengieng/pc-1207834_1280_zpsnxh8hqh5.jpg') no-repeat center bottom scroll;
+    background: url('assets/desk-1140699_1920.jpg') no-repeat center center fixed;
     -webkit-background-size: 100% cover;
     -moz-background-size: 100% cover;
     -o-background-size: 100% cover;
@@ -18,6 +19,13 @@ section {
 }
 
 #home-wrapper {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.home-content {
+    color: #fff;
+    margin: auto;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -26,50 +34,58 @@ section {
     transform: translateY(-50%);
 }
 
-#home-wrapper .page-header {
+.page-header {
+    color: inherit;
     font-size: 2.5em;
-}
-
-kbd {
-/*
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.3);
-*/
-    background: none;
-    box-shadow: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
     font-weight: 700;
 }
 
 #social-btn > li {
-    padding-bottom: 10px;
+    padding: 5px;
 }
 
 #social-btn .btn-default {
     background-color: transparent;
     color: #fff;
-    font-weight: bold;
+/*    font-weight: bold;*/
 }
 
 #social-btn .btn-default:hover {
     background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
 }
 
 #about {
-    background: url('http://i1268.photobucket.com/albums/jj570/lengieng/fog-240075_1280_zps8mrvm92t.jpg') no-repeat left center scroll;
+    background: url('assets/technology-792180_1920.jpg') no-repeat right bottom fixed;
     -webkit-background-size: 100% cover;
     -moz-background-size: 100% cover;
     -o-background-size: 100% cover;
     background-size: 100% cover;
-    height: 600px;
-    text-shadow: 2px 2px 8px #000;
+    height: 100%;
+    padding: 0;
+/*    text-shadow: 2px 2px 8px #000;*/
 }
 
 #about-wrapper {
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+}
+
+.about-content {
+    color: #000;
+    font-size: 1.2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #profile-pic {
@@ -140,42 +156,45 @@ footer a:hover {
 
 @media (min-width: 480px) {
     #home {
-        background: url('http://i1268.photobucket.com/albums/jj570/lengieng/pc-1207834_1280_zpsnxh8hqh5.jpg') no-repeat center top fixed;
+        background: url('assets/desk-1140699_1920.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 700px;
+        height: 100%;
         padding-top: 0;
     }
-    #home .page-header {
-        font-size: 5em;
+    
+    .page-header {
+        font-size: 6em;
     }
-    #home-wrapper {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
+    
     #social-btn > li {
         display: inline-block;
     }
+    
     #about {
-        background: url('http://i1268.photobucket.com/albums/jj570/lengieng/fog-240075_1280_zps8mrvm92t.jpg') no-repeat left center fixed;
+        padding: 0;
+        background: url('assets/technology-792180_1920.jpg') no-repeat left center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 700px;
+        height: 100%;
     }
-    #about-wrapper {
-        width: 50%;
+    
+    .about-content {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+        font-size: 1.5em;
     }
+    
     .thumbnail {
         box-shadow: none;
     }
+    
     .thumbnail:hover {
         box-shadow: 4px 4px 20px #333;
         -webkit-transition: box-shadow .5s;
@@ -192,9 +211,11 @@ footer a:hover {
         -webkit-transition: box-shadow .5s;
         transition: box-shadow .5s;
     }
+    
     #business-card:hover {
         box-shadow: 7px 7px 15px #333;
     }
+    
     #right-contact {
         padding-left: 10px;
     }
