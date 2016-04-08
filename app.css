@@ -16,6 +16,7 @@ section {
     -o-background-size: 100% cover;
     background-size: 100% cover;
     height: 100%;
+    padding: 0;
 }
 
 #home-wrapper {
@@ -162,7 +163,7 @@ footer a:hover {
         -o-background-size: cover;
         background-size: cover;
         height: 100%;
-        padding-top: 0;
+        padding: 0;
     }
     
     .page-header {
@@ -174,13 +175,13 @@ footer a:hover {
     }
     
     #about {
-        padding: 0;
         background: url('assets/technology-792180_1920.jpg') no-repeat left center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         height: 100%;
+        padding: 0;
     }
     
     .about-content {
