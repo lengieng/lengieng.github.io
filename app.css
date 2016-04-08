@@ -10,7 +10,7 @@ section {
 }
 
 #home {
-    background: url('assets/desk-1140699_1920.jpg') no-repeat center center fixed;
+    background: url('assets/desk-1140699_1920.jpg') no-repeat center center scroll;
     -webkit-background-size: 100% cover;
     -moz-background-size: 100% cover;
     -o-background-size: 100% cover;
@@ -57,7 +57,7 @@ section {
 }
 
 #about {
-    background: url('assets/technology-792180_1920.jpg') no-repeat right bottom fixed;
+    background: url('assets/technology-792180_1920.jpg') no-repeat right bottom scroll;
     -webkit-background-size: 100% cover;
     -moz-background-size: 100% cover;
     -o-background-size: 100% cover;
