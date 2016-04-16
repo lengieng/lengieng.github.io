@@ -10,7 +10,7 @@ section {
 }
 
 #home {
-    background: url('assets/desk-1140699_1920.jpg') no-repeat center center scroll;
+    background: url('assets/large/desk-1140699_1920.jpg') no-repeat center center scroll;
     -webkit-background-size: 100% cover;
     -moz-background-size: 100% cover;
     -o-background-size: 100% cover;
@@ -58,12 +58,12 @@ section {
 }
 
 #about {
-    background: url('assets/technology-792180_1920.jpg') no-repeat right bottom scroll;
+    background: url('assets/large/technology-792180_1920.jpg') no-repeat right bottom scroll;
     -webkit-background-size: 100% cover;
     -moz-background-size: 100% cover;
     -o-background-size: 100% cover;
     background-size: 100% cover;
-    height: 100%;
+    height: 650px;
     padding: 0;
 /*    text-shadow: 2px 2px 8px #000;*/
 }
@@ -157,7 +157,7 @@ footer a:hover {
 
 @media (min-width: 480px) {
     #home {
-        background: url('assets/desk-1140699_1920.jpg') no-repeat center center fixed;
+        background: url('assets/large/desk-1140699_1920.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -165,17 +165,17 @@ footer a:hover {
         height: 100%;
         padding: 0;
     }
-    
+
     .page-header {
         font-size: 6em;
     }
-    
+
     #social-btn > li {
         display: inline-block;
     }
-    
+
     #about {
-        background: url('assets/technology-792180_1920.jpg') no-repeat left center fixed;
+        background: url('assets/large/technology-792180_1920.jpg') no-repeat left center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -183,7 +183,7 @@ footer a:hover {
         height: 100%;
         padding: 0;
     }
-    
+
     .about-content {
         padding-top: 0;
         padding-bottom: 0;
@@ -191,17 +191,17 @@ footer a:hover {
         padding-right: 20%;
         font-size: 1.5em;
     }
-    
+
     .thumbnail {
         box-shadow: none;
     }
-    
+
     .thumbnail:hover {
         box-shadow: 4px 4px 20px #333;
         -webkit-transition: box-shadow .5s;
         transition: box-shadow .5s;
     }
-    
+
     #business-card {
         background-color: rgb(70, 64, 68);
         color: rgb(216, 214, 199);
@@ -212,11 +212,11 @@ footer a:hover {
         -webkit-transition: box-shadow .5s;
         transition: box-shadow .5s;
     }
-    
+
     #business-card:hover {
         box-shadow: 7px 7px 15px #333;
     }
-    
+
     #right-contact {
         padding-left: 10px;
     }
